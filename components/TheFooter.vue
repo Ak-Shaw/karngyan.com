@@ -32,7 +32,14 @@
 
         </div>
         <p class="mt-8 text-sm leading-6 text-gray-400 md:mt-0 md:order-1">
-          &copy; 2020 - present • {{ $store.state.name }}. all rights reserved.
+          {{ $store.state.name }} • dev template by <span class="ceator-preview hover:text-hot-pink text-gray-300">
+          <a rel="noreferrer" target="_blank" href="https://github.com/karngyan/karngyan.com">
+          <creator-preview
+            :avatar="avatar"
+            :name="name"
+            :description="description"
+            :content="content" :mode="mode" />
+        </a></span>
         </p>
       </div>
     </div>
@@ -41,29 +48,31 @@
 </template>
 
 <script>
+import CreatorPreview from 'vue-creator-preview';
+
 export default {
-  name: 'TheFooter',
-  methods: {
-    toast(msg, type) {
-      this.$buefy.toast.open({
-        duration: 2500,
-        message: msg,
-        type: type,
-        position: 'is-bottom',
-      });
-    }
+  components: {
+    CreatorPreview
   },
   data() {
     return {
-      loading: false,
-      subscriber: {
-        email: '',
-      },
+      avatar: 'https://cdn.karngyan.com/karn.jpg',
+      name: 'Karn',
+      mode: 'dark',
+      description: 'Software Engineer who tinkers with side projects, every now n then.',
+      content: `Hey, I am Karn 👋<br/> I built this template for procrastinating devs to set up their portfolio + blogs<br/><br/>
+Click on the link to visit the github repo to fork 👇🏾`,
     }
-  },
-};
+  }
+}
 </script>
 
 <style scoped>
+>>> .CreatorPreview {
+  @apply bg-gray-900 shadow-lg !important;
+}
 
+>>> .CreatorPreview--Avatar {
+  @apply h-20 w-20 !important;
+}
 </style>
