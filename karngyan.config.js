@@ -94,7 +94,7 @@ export default {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
+        description: 'i am a software developer and a part time freelancer. i love blogging tech, and tinker with new projects every now n then.',
         words: ['developer', 'designer', 'engineer', 'programmer', 'code mentor'],
       },
       githubCalendar: {
@@ -103,7 +103,7 @@ export default {
       },
       blog: {
         header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@karngyan.com'
+        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@akshaw.dev'
       },
       recentBlog: {
         header: 'recent blogs',

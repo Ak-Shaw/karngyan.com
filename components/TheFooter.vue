@@ -31,7 +31,7 @@
           </a>
         </div>
         <p class="mt-8 text-sm leading-6 text-gray-400 md:mt-0 md:order-1">
-          {{ $config.name }} • dev template by <span class="ceator-preview hover:text-hot-pink text-gray-300">
+          {{ $config.name }} •  <span class="ceator-preview hover:text-hot-pink text-gray-300">
           <a class="hidden md:inline-block" rel="noreferrer" target="_blank" href="https://github.com/karngyan/karngyan.com">
           <creator-preview
             :avatar="avatar"
@@ -57,12 +57,11 @@ export default {
   },
   data() {
     return {
-      avatar: 'https://cdn.karngyan.com/karn.jpg',
-      name: 'Karn',
+      avatar: '/images/college-library-low-quality.jpeg',
+      name: 'A K Shaw',
       mode: 'dark',
-      description: 'Software Engineer who tinkers with side projects, every now n then.',
-      content: `Hey, I am Karn 👋<br/> I built this template for procrastinating devs to set up their portfolio + blogs<br/><br/>
-Click on the link to visit the github repo to fork 👇🏾`,
+      description: 'Software Developer who loves his coffe with his code.',
+      content: `Hey there! I am Ayush 👋<br/> Feel free to have a look around so that you can get to know me even without knowing me! <br />You know what I mean right? 😗`,
     }
   }
 }
