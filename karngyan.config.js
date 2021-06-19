@@ -2,7 +2,7 @@
 
 export default {
   name: 'ayush kumar shaw',
-  domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
+  domain: 'www.akshaw.dev', // add without https:// , used in meta tags and share urls
   image: '/images/akshawEmojified.png',
   email: 'ayushshawz@gmail.com',
   googleAnalyticsV4: {
@@ -11,7 +11,7 @@ export default {
   },
   plausibleAnalytics: {
     enabled: true,
-    domain: 'template.karngyan.com',
+    domain: 'www.akshaw.dev',
     trackLocalhost: false,
     // leave it empty if plausible is not self hosted
     apiHost: 'https://analytics.lookatx.dev' // default: https://plausible.io
