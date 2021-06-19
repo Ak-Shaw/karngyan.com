@@ -1,10 +1,10 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
+  name: 'ayush kumar shaw',
   domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
   image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  email: 'ayushshawz@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
@@ -19,18 +19,18 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: true
+    enabled: false
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
-    facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    github: 'Ak-Shaw',
+    linkedin: 'ayush-shaw',
+    facebook: 'ayush.shaw.148',
+    twitter: 'akshawz',
+    instagram: 'akshawz',
+    codestats: 'akshaw' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
-    enabled: true,
+    enabled: false,
     url: 'https://www.buymeacoffee.com/karngyan'
   },
   projects: {
@@ -41,31 +41,28 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
+    pdfUrl: '/RESUME_AYUSH_KUMAR_SHAW_DARK.pdf' // add files in static folder
   },
   uses: {
     enabled: true,
     meta: [
-      {title: 'OS', value: 'macOS Catalina'},
-      {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
-      {title: 'Keyboard', value: 'Keychron K2 - Gateron Brown Keys'},
-      {title: 'Mouse', value: 'Logitech Silent Pebble'},
-      {title: 'Monitor', value: 'LG QHD (2560 x 1440) 27 Inch IPS Display'},
-      {title: 'Laptop • Processor • Graphics', value: 'MacBook Pro (16-inch, 2019) • 2.6 GHz 6-Core Intel Core i7 • AMD Radeon Pro 5300M 4 GB + Intel UHD Graphics 630 1536 MB'}
+      {title: 'OS', value: 'Ubuntu Focal Fossa'},
+      // {title: 'Memory', value: '8 GB 3200 MHz DDR4-3200 SDRAM'},
+      // {title: 'Keyboard', value: 'Logitech K230'},
+      // {title: 'Mouse', value: 'Logitech M170'},
+      // {title: 'Monitor', value: '13.3" diagonal FHD, IPS, micro-edge WLED-backlit, multitouch-enabled, edge-to-edge glass, 400 nitsB (1920 x 1080)'},
+      {title: 'Laptop • Processor • Graphics', value: 'HP ENVY x360 (13.3-inch, 2020) • 2.3 GHz with Turbo Boost Upto 4 GHz 8 MB L3 cache 6-Core 12 thread AMD Ryzen 5 Hexa Core • AMD Radeon™ Vega M Graphics'}
     ]
   },
   workedAt: {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
-      { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
-      { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
       { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
     ]
   },
   loadingIndicator: {
-    name: 'pulse'
+    name: 'folding-cube'
     // https://tobiasahlin.com/spinkit/
     // circle
     // cube-grid
@@ -97,7 +94,7 @@ export default {
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
         description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        words: ['developer', 'designer', 'engineer', 'programmer', 'code mentor'],
       },
       githubCalendar: {
         header: 'contributions',
