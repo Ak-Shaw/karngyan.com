@@ -32,14 +32,14 @@
         </div>
         <p class="mt-8 text-sm leading-6 text-gray-400 md:mt-0 md:order-1">
           {{ $config.name }} •  <span class="ceator-preview hover:text-hot-pink text-gray-300">
-          <a class="hidden md:inline-block" rel="noreferrer" target="_blank" href="https://github.com/karngyan/karngyan.com">
+          <a class="hidden md:inline-block" rel="noreferrer" target="_blank" href="https://github.com/Ak-Shaw">
           <creator-preview
             :avatar="avatar"
             :name="name"
             :description="description"
             :content="content" :mode="mode" />
           </a>
-          <a class="inline-block md:hidden" target="_blank" href="https://github.com/karngyan/karngyan.com">{{ name }} </a>
+          <a class="inline-block md:hidden" target="_blank" href="https://github.com/Ak-Shaw">{{ name }} </a>
           </span>
         </p>
       </div>
@@ -58,7 +58,7 @@ export default {
   data() {
     return {
       avatar: '/images/college-library-low-quality.jpeg',
-      name: 'A K Shaw',
+      name: 'Ak-Shaw',
       mode: 'dark',
       description: 'Software Developer who loves his coffe with his code.',
       content: `Hey there! I am Ayush 👋<br/> Feel free to have a look around so that you can get to know me even without knowing me! <br />You know what I mean right? 😗`,
