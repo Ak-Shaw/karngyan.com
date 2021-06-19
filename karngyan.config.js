@@ -3,7 +3,7 @@
 export default {
   name: 'ayush kumar shaw',
   domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
-  image: '/images/bigheadkarngyan.png',
+  image: '/images/akshawEmojified.png',
   email: 'ayushshawz@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
@@ -41,7 +41,7 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_AYUSH_KUMAR_SHAW_DARK.pdf' // add files in static folder
+    pdfUrl: '/RESUME_AYUSH_KUMAR_SHAW.pdf' // add files in static folder
   },
   uses: {
     enabled: true,
