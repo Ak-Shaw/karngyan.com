@@ -12,7 +12,7 @@ category: app development
 author:
   name: ayush
   twitter: akshawz
-  image: /images/on-the-dance-floor.jpg
+  image: /images/on-the-dance-floor-low-quality.jpg
 ---
 
 <b><span style="font-family:Papyrus; font-size:4em">In</span></b> <span style="font-family:'Courier New', monospace;">*a matter of opinion, what makes a great app? Is it the service or the fun it offers? Is it its ergonomics, its visual aspect? Why do you love some applications? Is it because they never crash? It is because their interface uses your language? Is it because they store or do not store personal data?*</span>
