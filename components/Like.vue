@@ -35,7 +35,7 @@ export default {
         this.$toast.error('sign in please so we don\'t lose your likes', { duration: 3000, theme: 'bubble' })
       }
 
-      if (this.buffer >= 2 && this.user) {
+      if (this.buffer >= 1 && this.user) {
         this.$store.dispatch('incrementLikes', {count: this.buffer, slug: this.slug, id: this.id})
         this.buffer = 0
       }
