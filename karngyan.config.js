@@ -19,7 +19,7 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: false
+    enabled: true
   },
   social: {
     github: 'Ak-Shaw',
@@ -58,6 +58,7 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
+      { name: 'JAROBLE', src: '/images/jaroble.png', url: 'https://www.jaroble.com' },
       { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
     ]
   },
