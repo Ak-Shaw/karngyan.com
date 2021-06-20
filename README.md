@@ -6,7 +6,7 @@
   </a>
   <br/><br/>
   <a href="https://template.karngyan.com">
-    <img src="https://api.netlify.com/api/v1/badges/88476203-8c04-4a61-9be3-cdc713690283/deploy-status" alt="Netlify Status">
+    <img src="https://api.netlify.com/api/v1/badges/19e56a6f-1f4d-4903-9afd-e0221de140d7/deploy-status" alt="Netlify Status">
   </a>
 
   <h3 align="center">template.karngyan.com</h3>
