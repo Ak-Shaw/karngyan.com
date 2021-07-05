@@ -13,7 +13,7 @@ twitter: akshawz
 
 Founding team member and core backend team player.
 
-Have single-handedly implemented the following backend APIs and Microservices:
+Have implemented the following backend APIs and Microservices:
 
 - **Sign-In** functionality, which includes:
     - *JWT Authentication*
