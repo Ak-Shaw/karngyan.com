@@ -25,7 +25,7 @@ Have single-handedly implemented the following backend APIs and Microservices:
     - *New Phone*
     - *Verify Email*
 
-- Microservies for **Social Media** aspect of the platform:
+- Microservices for **Social Media** aspect of the platform:
     - *Follow/Unfollow*
     - **CRUD** APIs for *Social Posts*
     - *Social Posts* support four media types other than null, namely *Image*, *Video*, *Document*, and *Other*
