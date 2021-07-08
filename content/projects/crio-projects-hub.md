@@ -2,7 +2,7 @@
 id: 2
 title: Crio Projects Hub
 description: Find interesting mini projects for CSE and get started with an execution plan
-tech: markdown
+tech: markdown jenkins
 logo: /images/crio.png
 website: https://www.crio.do/projects/
 github: https://github.com/Crio-projects/
