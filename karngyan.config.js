@@ -58,6 +58,7 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
+      { name: 'Yellow Class', src: '/images/yellow-class.jpeg', url: 'https://www.yellowclass.com' },
       { name: 'JAROBLE', src: '/images/jaroble.png', url: 'https://www.jaroble.com' },
       { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
     ]
@@ -94,7 +95,7 @@ export default {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software developer and a part time freelancer. i love blogging tech, and tinker with new projects every now n then.',
+        description: 'i am a software developer and a part time freelancer. i\'m into tech blogging and devoting some of my time to side projects.',
         words: ['developer', 'designer', 'engineer', 'programmer', 'code mentor'],
       },
       githubCalendar: {
