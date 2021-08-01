@@ -41,7 +41,7 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_AYUSH_KUMAR_SHAW.pdf' // add files in static folder
+    pdfUrl: '/RESUME_AYUSH_KUMAR_SHAW_DARK.pdf' // add files in static folder
   },
   uses: {
     enabled: true,
