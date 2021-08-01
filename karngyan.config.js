@@ -104,11 +104,11 @@ export default {
       },
       blog: {
         header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail me at ayushshawz@gmail.com'
+        subtext: 'i really love writing, but it does demand a chunk of my time. i\'m always open to feedback. i\'ll be happy to know your thoughts in comments or mail me at ayushshawz@gmail.com'
       },
       recentBlog: {
         header: 'recent blogs',
-        subtext: 'it takes a lot of time to write man'
+        subtext: 'i won\' lie, writing does take a ton of time!'
       },
       uses: {
         header: 'uses',
