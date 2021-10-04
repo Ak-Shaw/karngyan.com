@@ -9,7 +9,9 @@ github: https://github.com/Jaroble-pvt-ltd/
 twitter: akshawz
 ---
 
-# JAROBLE - The place where preparation meets success
+# <center>The place where preparation meets success</center>
+
+<center><img src="/images/jaroble.png" width="20%" /></center>
 
 Founding team member and core backend team player.
 

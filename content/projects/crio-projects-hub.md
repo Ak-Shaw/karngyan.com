@@ -9,7 +9,9 @@ github: https://github.com/Crio-projects/
 twitter: akshawz
 ---
 
-# The Crio Projects Hub
+# <center>Projects targeted towards instructional software development training</center>
+
+<center><img src="/images/crio.png" width="30%" /></center>
 
 Find interesting mini projects for CSE and get started with an execution plan 
 
