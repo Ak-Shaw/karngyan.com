@@ -58,6 +58,7 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
+      { name: 'Quizizz Inc.', src: '/images/quizizz.png', url: 'https://www.quizizz.com' },
       { name: 'Yellow Class', src: '/images/yellow-class.jpeg', url: 'https://www.yellowclass.com' },
       { name: 'JAROBLE', src: '/images/jaroble.png', url: 'https://www.jaroble.com' },
       { name: 'Crio.Do', src: '/images/crio.png', url: 'https://crio.do' },
